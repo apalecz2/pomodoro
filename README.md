@@ -13,7 +13,7 @@ A physical pomodoro timer with a 7-segment display, synced live over the interne
 
 ## Architecture at a glance
 
-Three units (firmware, backend, web app) all stay in sync because the backend owns the countdown and broadcasts `{ status, end_time, session_id }` over WebSocket; every client derives remaining time from `end_time - now` rather than trusting a pushed number. See [docs/architecture-system-design.md](docs/architecture-system-design.md) for the full design.
+Three units (firmware, backend, web app) all stay in sync because the backend owns the countdown and broadcasts `{ status, end_time, session_id }` over WebSocket; every client derives remaining time from `end_time - now` rather than trusting a pushed number. See [docs/architecture.md](docs/architecture.md) for the full design.
 
 ## Tech stack
 
