@@ -6,6 +6,7 @@
 # Go
 /backend/bin/
 /backend/*.out
+/backend/*.exe
 
 # Node
 node_modules/
