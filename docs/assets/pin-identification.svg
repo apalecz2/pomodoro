@@ -1,0 +1,118 @@
+<svg width="680" height="450" viewBox="0 0 680 450" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Pin identification for 74HC595 and 5461AS</title>
+  <desc>Top view of the 74HC595 DIP-16 with the notch up, pin 1 top left, pins numbered counterclockwise with names and wiring destinations, and top view of the 5461AS display with decimal points at the bottom, bottom row pins 1 to 6 left to right, top row pins 7 to 12 right to left.</desc>
+  <style>
+    .t  { font: 12px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill: #333; }
+    .h  { font: 600 13px ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill: #222; }
+  </style>
+
+  <rect x="0" y="0" width="680" height="450" fill="#FBFAF7"/>
+
+  <!-- 74HC595 package -->
+  <text class="t" x="195" y="66" text-anchor="middle" dominant-baseline="central">notch = top</text>
+  <rect x="140" y="80" width="110" height="330" rx="4" fill="#F1EFE9" stroke="#8A8578" stroke-width="1"/>
+  <path d="M181 80 A14 14 0 0 0 209 80" fill="none" stroke="#8A8578" stroke-width="1"/>
+  <circle cx="155" cy="102" r="3" fill="#555"/>
+  <text class="h" x="195" y="245" text-anchor="middle" dominant-baseline="central">74HC595</text>
+
+  <g fill="#B9B4A7">
+    <rect x="124" y="106" width="16" height="8"/>
+    <rect x="124" y="144" width="16" height="8"/>
+    <rect x="124" y="182" width="16" height="8"/>
+    <rect x="124" y="220" width="16" height="8"/>
+    <rect x="124" y="258" width="16" height="8"/>
+    <rect x="124" y="296" width="16" height="8"/>
+    <rect x="124" y="334" width="16" height="8"/>
+    <rect x="124" y="372" width="16" height="8"/>
+    <rect x="250" y="106" width="16" height="8"/>
+    <rect x="250" y="144" width="16" height="8"/>
+    <rect x="250" y="182" width="16" height="8"/>
+    <rect x="250" y="220" width="16" height="8"/>
+    <rect x="250" y="258" width="16" height="8"/>
+    <rect x="250" y="296" width="16" height="8"/>
+    <rect x="250" y="334" width="16" height="8"/>
+    <rect x="250" y="372" width="16" height="8"/>
+  </g>
+
+  <text class="t" x="118" y="110" text-anchor="end" dominant-baseline="central">1 · Q1 → B</text>
+  <text class="t" x="118" y="148" text-anchor="end" dominant-baseline="central">2 · Q2 → C</text>
+  <text class="t" x="118" y="186" text-anchor="end" dominant-baseline="central">3 · Q3 → D</text>
+  <text class="t" x="118" y="224" text-anchor="end" dominant-baseline="central">4 · Q4 → E</text>
+  <text class="t" x="118" y="262" text-anchor="end" dominant-baseline="central">5 · Q5 → F</text>
+  <text class="t" x="118" y="300" text-anchor="end" dominant-baseline="central">6 · Q6 → G</text>
+  <text class="t" x="118" y="338" text-anchor="end" dominant-baseline="central">7 · Q7 → DP</text>
+  <text class="t" x="118" y="376" text-anchor="end" dominant-baseline="central">8 · GND</text>
+
+  <text class="t" x="272" y="110" text-anchor="start" dominant-baseline="central">16 · VCC → 3V3</text>
+  <text class="t" x="272" y="148" text-anchor="start" dominant-baseline="central">15 · Q0 → A</text>
+  <text class="t" x="272" y="186" text-anchor="start" dominant-baseline="central">14 · DS → D7</text>
+  <text class="t" x="272" y="224" text-anchor="start" dominant-baseline="central">13 · OE → GND</text>
+  <text class="t" x="272" y="262" text-anchor="start" dominant-baseline="central">12 · STCP → D6</text>
+  <text class="t" x="272" y="300" text-anchor="start" dominant-baseline="central">11 · SHCP → D5</text>
+  <text class="t" x="272" y="338" text-anchor="start" dominant-baseline="central">10 · MR → 3V3</text>
+  <text class="t" x="272" y="376" text-anchor="start" dominant-baseline="central">9 · Q7S (n/c)</text>
+
+  <!-- 5461AS top row labels -->
+  <text class="t" x="435" y="104" text-anchor="middle" dominant-baseline="central">DIG1</text>
+  <text class="t" x="477" y="104" text-anchor="middle" dominant-baseline="central">A</text>
+  <text class="t" x="519" y="104" text-anchor="middle" dominant-baseline="central">F</text>
+  <text class="t" x="561" y="104" text-anchor="middle" dominant-baseline="central">DIG2</text>
+  <text class="t" x="603" y="104" text-anchor="middle" dominant-baseline="central">DIG3</text>
+  <text class="t" x="640" y="104" text-anchor="middle" dominant-baseline="central">B</text>
+  <text class="t" x="435" y="122" text-anchor="middle" dominant-baseline="central">12</text>
+  <text class="t" x="477" y="122" text-anchor="middle" dominant-baseline="central">11</text>
+  <text class="t" x="519" y="122" text-anchor="middle" dominant-baseline="central">10</text>
+  <text class="t" x="561" y="122" text-anchor="middle" dominant-baseline="central">9</text>
+  <text class="t" x="603" y="122" text-anchor="middle" dominant-baseline="central">8</text>
+  <text class="t" x="640" y="122" text-anchor="middle" dominant-baseline="central">7</text>
+
+  <g fill="#B9B4A7">
+    <rect x="431" y="132" width="8" height="10"/>
+    <rect x="473" y="132" width="8" height="10"/>
+    <rect x="515" y="132" width="8" height="10"/>
+    <rect x="557" y="132" width="8" height="10"/>
+    <rect x="599" y="132" width="8" height="10"/>
+    <rect x="636" y="132" width="8" height="10"/>
+  </g>
+
+  <!-- 5461AS body -->
+  <rect x="405" y="142" width="255" height="140" rx="4" fill="#2E2C28" stroke="#8A8578" stroke-width="1"/>
+  <g fill="#3A3833" stroke="#55524B" stroke-width="1">
+    <rect x="419" y="167" width="50" height="90" rx="4"/>
+    <rect x="477" y="167" width="50" height="90" rx="4"/>
+    <rect x="535" y="167" width="50" height="90" rx="4"/>
+    <rect x="593" y="167" width="50" height="90" rx="4"/>
+  </g>
+  <g style="font: 600 22px ui-sans-serif, system-ui, sans-serif; fill: #E8543F;">
+    <text x="444" y="212" text-anchor="middle" dominant-baseline="central">8.</text>
+    <text x="502" y="212" text-anchor="middle" dominant-baseline="central">8.</text>
+    <text x="560" y="212" text-anchor="middle" dominant-baseline="central">8.</text>
+    <text x="618" y="212" text-anchor="middle" dominant-baseline="central">8.</text>
+  </g>
+
+  <g fill="#B9B4A7">
+    <rect x="431" y="282" width="8" height="10"/>
+    <rect x="473" y="282" width="8" height="10"/>
+    <rect x="515" y="282" width="8" height="10"/>
+    <rect x="557" y="282" width="8" height="10"/>
+    <rect x="599" y="282" width="8" height="10"/>
+    <rect x="636" y="282" width="8" height="10"/>
+  </g>
+
+  <circle cx="435" cy="302" r="3" fill="#555"/>
+  <text class="t" x="435" y="320" text-anchor="middle" dominant-baseline="central">1</text>
+  <text class="t" x="477" y="320" text-anchor="middle" dominant-baseline="central">2</text>
+  <text class="t" x="519" y="320" text-anchor="middle" dominant-baseline="central">3</text>
+  <text class="t" x="561" y="320" text-anchor="middle" dominant-baseline="central">4</text>
+  <text class="t" x="603" y="320" text-anchor="middle" dominant-baseline="central">5</text>
+  <text class="t" x="640" y="320" text-anchor="middle" dominant-baseline="central">6</text>
+  <text class="t" x="435" y="338" text-anchor="middle" dominant-baseline="central">E</text>
+  <text class="t" x="477" y="338" text-anchor="middle" dominant-baseline="central">D</text>
+  <text class="t" x="519" y="338" text-anchor="middle" dominant-baseline="central">DP</text>
+  <text class="t" x="561" y="338" text-anchor="middle" dominant-baseline="central">C</text>
+  <text class="t" x="603" y="338" text-anchor="middle" dominant-baseline="central">G</text>
+  <text class="t" x="640" y="338" text-anchor="middle" dominant-baseline="central">DIG4</text>
+
+  <text class="t" x="532" y="372" text-anchor="middle" dominant-baseline="central">Digits upright, decimal points bottom-right — pin 1 is bottom-left</text>
+  <text class="t" x="532" y="392" text-anchor="middle" dominant-baseline="central">Bottom row 1–6 left to right, top row 7–12 right to left</text>
+</svg>
